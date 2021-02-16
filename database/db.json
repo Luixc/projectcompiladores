@@ -1,0 +1,302 @@
+{
+  "problems": [
+    {
+      "id": 1,
+      "title": "Sumas",
+      "categoria": "Matematicas",
+      "description": "en este problema se debe sumar dos numeros enteros",
+      "usersPass": [],
+      "casos": [
+        {
+          "parametros": [
+            2,
+            2
+          ],
+          "respuestaEsperada": 4
+        },
+        {
+          "parametros": [
+            8,
+            8
+          ],
+          "respuestaEsperada": 16
+        },
+        {
+          "parametros": [
+            1,
+            2
+          ],
+          "respuestaEsperada": 3
+        },
+        {
+          "parametros": [
+            28,
+            42
+          ],
+          "respuestaEsperada": 70
+        },
+        {
+          "parametros": [
+            5,
+            5
+          ],
+          "respuestaEsperada": 10
+        },
+        {
+          "parametros": [
+            25,
+            50
+          ],
+          "respuestaEsperada": 75
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "operacionesa",
+      "categoria": "Matematicas",
+      "description": "Programa que lee dos números de tipo float y muestra la suma, resta y multiplicación de esos números",
+      "usersPass": [],
+      "casos": [
+        {
+          "parametros": [
+            2,
+            3
+          ],
+          "respuestaEsperada": [5,-1,6]
+        },
+        {
+          "parametros": [
+            3,
+            12
+          ],
+          "respuestaEsperada": [
+            15,
+            -9,
+            36
+          ]
+        },
+        {
+          "parametros": [
+            4,
+            2
+          ],
+          "respuestaEsperada": [
+            6,
+            2,
+            8
+          ]
+        },
+        {
+          "parametros": [
+            2,
+            5
+          ],
+          "respuestaEsperada": [
+            7,
+            -3,
+            10
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Multiplicación",
+      "categoria": "Matematicas",
+      "description": "en este problema se debe multiplicar tres numeros enteros",
+      "casos": [
+        {
+          "parametros": [
+            2,
+            2,
+            2
+          ],
+          "respuestaEsperada": 8
+        },
+        {
+          "parametros": [
+            1,
+            2,
+            3
+          ],
+          "respuestaEsperada": 6
+        },
+        {
+          "parametros": [
+            -5,
+            5,
+            1
+          ],
+          "respuestaEsperada": -25
+        },
+        {
+          "parametros": [
+            100,
+            10,
+            10
+          ],
+          "respuestaEsperada": 10000
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Hola mundo",
+      "categoria": "introduccion",
+      "description": "Se llama Hola mundo a un programa muy simple, cuya única función es mostrar en pantalla el texto Hola mundo. Por su simpleza, cientos de profesores de programación en todo el mundo utilizan este ejemplo como la primera aproximación de sus estudiantes a la programación. En este problema justamente haremos un Hola mundo. Pero no lo hagamos tan simple. En vez de saludar siempre al mundo, saludemos a un listado de personas específicas. ¿Estas listo? ¡Inténtalo!",
+      "casos": [
+        {
+          "parametros": [
+            "hugo"
+          ],
+          "respuestaEsperada": "hugo como estas"
+        },
+        {
+          "parametros": [
+            "Yuli"
+          ],
+          "respuestaEsperada": "Yuli como estas"
+        },
+        {
+          "parametros": [
+            "Miguel"
+          ],
+          "respuestaEsperada": "Miguel como estas"
+        },
+        {
+          "parametros": [
+            "Luis"
+          ],
+          "respuestaEsperada": "Luis como estas"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "El mayor",
+      "categoria": "introduccion",
+      "description": "Lee 2 números enteros. Imprime el mas alto de todos ellos.",
+      "casos": [
+        {
+          "parametros": [
+            65,
+            34
+          ],
+          "respuestaEsperada": "65"
+        },
+        {
+          "parametros": [
+            78,
+            1
+          ],
+          "respuestaEsperada": "78"
+        },
+        {
+          "parametros": [
+            45,
+            74
+          ],
+          "respuestaEsperada": "74"
+        },
+        {
+          "parametros": [
+            45,
+            314
+          ],
+          "respuestaEsperada": "314"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "palindromo",
+      "categoria": "Otros",
+      "description": "Dado un string, considera si es palindromo, considerando SOLO los caracteres alfanumericos .",
+      "casos": [
+        {
+          "parametros": [
+            "ali tomo tila"
+          ],
+          "respuestaEsperada": "si es un palindromo"
+        },
+        {
+          "parametros": [
+            "aman a panama"
+          ],
+          "respuestaEsperada": "si es un palindromo"
+        },
+        {
+          "parametros": [
+            "hola"
+          ],
+          "respuestaEsperada": "no es un palindromo"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Cuenta cadena",
+      "categoria": "Otros",
+      "description": "Dado un string recibe un caracter y dice cuantas veces aparece dicho caracter en la cadena",
+      "casos": [
+        {
+          "parametros": [
+            "murcielago",
+            "a"
+          ],
+          "respuestaEsperada": 1
+        },
+        {
+          "parametros": [
+            "matematicas",
+            "m"
+          ],
+          "respuestaEsperada": 2
+        },
+        {
+          "parametros": [
+            "universidad",
+            "i"
+          ],
+          "respuestaEsperada": 2
+        }
+      ]
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "email": "luixc93@gmail.com",
+      "password": "1234567",
+      "solvedProblems": [
+        1,
+        2,
+        3,
+        5,
+        6,
+        7
+      ]
+    },
+    {
+      "id": 2,
+      "email": "yuli06043@gmail.com",
+      "password": "yuli123",
+      "solvedProblems": []
+    },
+    {
+      "id": 4,
+      "email": "mauricio@gmail.com",
+      "password": "udenar2021",
+      "solvedProblems": [
+        3
+      ]
+    },
+    {
+      "email": "user1@hotmail.com",
+      "password": "user",
+      "id": 3,
+      "solvedProblems": []
+    }
+  ]
+}
